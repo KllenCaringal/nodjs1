@@ -1,0 +1,10 @@
+const express = require('express');
+const router = express.Router();
+const kllen = require('../controller/kllencontroller')
+
+router.get('/', kllen.dale);
+router.get('/name', kllen.mar);
+router.get('/last', kllen.car);
+router.get('/middle', kllen.ingal);
+router.get('/love', kllen.man);
+module.exports = router;
